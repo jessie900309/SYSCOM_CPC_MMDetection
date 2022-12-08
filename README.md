@@ -147,6 +147,7 @@
 
 ## Run
 1. 在專案目錄下開啟CMD
+    (或是PowerShell也可以)
     <img width='500px' src='https://i.imgur.com/xIyDUe6.png'/>
 2. `py main.py`
     過程中出現UserWarning、Warning都是正常的
