@@ -26,7 +26,7 @@ def convertMP4(inputMP4, model):
         print("{} is not a file!".format(inputMP4))
 
 
-def convertJPGtoMP4(inputMP4, model):
+def convertJPGtoMP4(inputMP4):
     input_video = inputMP4
     input_video_name = basename(input_video)[:-4]
     input_video_frame_dir = 'syscom_video_frame/' + input_video_name
