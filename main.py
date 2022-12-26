@@ -16,7 +16,7 @@ def main():
         ffmpegMP4(input_video)
         convertMP4('syscom_convert_video' + '/' + input_video, MMDmodel)
         print("convert image list to video...")
-        convertJPGtoMP4(input_video_path, MMDmodel)
+        convertJPGtoMP4(input_video_path)
 
 
 if __name__ == '__main__':
